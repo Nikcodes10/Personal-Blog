@@ -1,0 +1,53 @@
+article {
+    padding-left:20%;
+    padding-right:20%; 
+}
+p {
+    font-size: 18;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h4 {
+    font-size: 20;
+    font-style:italic;
+}
+h2 {
+    font-size: 26;
+    font-family:cursive;
+    text-decoration:underline;
+}
+h1 {
+    padding-top: 0.5cm;
+    padding-left:4%;
+    font-family: cursive;
+    font-style:italic !important;
+}
+body {
+    
+    margin: auto;
+    width:80%;
+    min-width: 500px;
+    border-style:solid;
+    border-width:30px;
+        
+}
+
+
+/*
+work{
+    
+    border-style:solid;
+    border-width: 10px;
+    font-family: arial;
+}
+#work {
+    color:green;
+}    
+*/
+.image{
+    width:480px;
+}
+.dragon{
+
+}
+
+
