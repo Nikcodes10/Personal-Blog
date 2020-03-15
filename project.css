@@ -1,6 +1,6 @@
 article {
     padding-left:20%;
-    padding-right:20%; 
+    padding-right:20%;
 }
 p {
     font-size: 18;
@@ -9,45 +9,74 @@ p {
 h4 {
     font-size: 20;
     font-style:italic;
+    text-align: right;
+    font-family:monospace;
 }
 h2 {
     font-size: 26;
     font-family:cursive;
     text-decoration:underline;
+    text-align: left
 }
 h1 {
     padding-top: 0.5cm;
     padding-left:4%;
     font-family: cursive;
     font-style:italic !important;
+    text-decoration: underline;
+    
 }
 body {
     
     margin: auto;
     width:80%;
-    min-width: 500px;
+    
     border-style:solid;
     border-width:30px;
         
 }
-
-
-/*
-work{
-    
-    border-style:solid;
-    border-width: 10px;
-    font-family: arial;
+.left {
+    text-align: left !important;
+    border-color: aqua;
 }
-#work {
-    color:green;
-}    
-*/
 .image{
-    width:480px;
+    width:auto;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
-.dragon{
 
+.procaa {
+    width: auto;
+    max-width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;  
 }
-
-
+.anticaa {
+    width: auto;
+    max-width: 75%;
+    max-height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;   
+}
+.dragon {
+    width:auto;
+    max-width: 80%;
+    height: auto;
+    max-height: 400;
+    
+    
+}
+.joker{
+    width:auto;
+    height:auto;
+    max-width: 80%;
+    
+}
+.poem {
+    text-align: center;
+    
+}
