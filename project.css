@@ -26,15 +26,26 @@ h1 {
     text-decoration: underline;
     
 }
-body {
-    
+.light {
+    color: black;
     margin: auto;
     width:80%;
-    
     border-style:solid;
+    border-color: black;
     border-width:30px;
-        
+    background-color: white;
 }
+.dark {
+    color:white;
+    margin: auto;
+    width:80%;
+    border-style:solid;
+    border-color: white;
+    border-width:30px;
+    background-color: black;
+}
+}
+
 .left {
     text-align: left !important;
     border-color: aqua;
@@ -42,6 +53,7 @@ body {
 .image{
     width:auto;
     max-width: 75%;
+    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -57,7 +69,7 @@ body {
 .anticaa {
     width: auto;
     max-width: 75%;
-    max-height: 75%;
+    max-height: 300px;       
     margin-left: auto;
     margin-right: auto;
     display: block;   
@@ -79,4 +91,76 @@ body {
 .poem {
     text-align: center;
     
+}
+.claps {
+    border-style: solid;
+    border-width: 4px;
+    background-color:lightsalmon;
+    text-align: center !important;
+    width: 70px;
+    height:50;
+    border-radius: 30px;
+    margin-left: 7%;
+    font-weight: bold;
+    border-color: black;
+    cursor: grab;
+}
+.claps:hover {
+    background-color:deepskyblue;
+}
+.share {
+    border-style: solid;
+    border-width: 3px;
+    background-color:limegreen;
+    text-align: center !important;
+    
+    height:40px;
+    margin-top: 0.7%;
+    margin-bottom: auto;
+    
+    margin-right:7%;
+    text-align: right;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: forestgreen;
+    float: right;
+}
+.share:hover {
+background-color: rgb(33, 136, 33);
+}
+
+.mode1 {
+    position: relative;
+    float: right;
+    text-align: center;
+    width:100px;
+    margin-right: 10%;
+    height: 20px;
+    background-color:black;
+    border:solid;
+    border-color: bisque;
+    color:white;
+    font-family:monospace;
+    cursor: grab;
+}
+.mode1:hover {
+    border-color: yellowgreen;
+}
+
+.mode2 {
+    position: relative;
+    float: right;
+    font-family: monospace;
+    text-align: center;
+    width:100px;
+    margin-right: 10%;
+    height: 20px;
+    background-color:white;
+    border:solid;
+    border-color: grey;
+    color:black;
+    cursor: grab;
+}
+.mode2:hover {
+    border-color: crimson;
 }
