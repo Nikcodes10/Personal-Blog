@@ -22,7 +22,6 @@
 #sidebar ul{
     padding: 0px;
     margin: 0px;
-    opacity: 1;
 }
 #sidebar ul li{
     border-bottom: solid;
@@ -33,6 +32,7 @@
     list-style: none;
     text-align: center;
     height: 20.4px;
+    opacity: 1;
 }
 span {
     
