@@ -2,15 +2,33 @@
     <head>
         <title>Nik_writes</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="project.css">
+        <link rel="stylesheet" type="text/css" href="blogstyle.css">
+         <link rel="stylesheet" type="text/css" href="indexsidebarstyle.css">
     </head>
     <body id="changemode" class="light">
-        <h1>Personal Blog:</h1>
+        
+        <div class="home">
+        
+            <h1>Personal Blog:</h1>
+            
+            <div id="sidebar" class="closed">
+  <ul class="sidelist">
+      <li class="sideheadings"><a href="index.html">Home</a></li>
+      <li class="sideheadings"><a href="author.html">Author</a></li>
+    </ul>
+</div>
+  <div class="toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+  </div> 
+
+            
 
         <button type="button" id="mode" class="mode1">Dark mode</button>
         
         <br>
-        <div>
+    
             
         <article id="csa">
       <hr>
@@ -173,5 +191,6 @@
         </div>
       
       <script src="script.js"></script>
+        <script src="sidebarscript.js"></script>
     </body>
 </html>

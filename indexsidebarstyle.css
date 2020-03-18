@@ -1,0 +1,86 @@
+
+#sidebar{
+    position: absolute;
+  width:100px;
+  color: white;
+    height:60%;
+    background-color: hsla(0, 0%, 0%, 0.13);    
+    transition:all 650ms linear;
+    border:solid;
+    border-width: 2px;
+    border-color: black;
+}
+.closed {
+     margin-left:-150px; 
+    margin-top: -9px;
+    opacity: 0;
+}
+.open {
+     margin-left:-10px;  
+    margin-top: -9px;
+}
+#sidebar ul{
+    padding: 0px;
+    margin: 0px;
+}
+#sidebar ul li{
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    padding-top: 10%;
+    padding-bottom: 8px;
+    list-style: none;
+    text-align: center;
+    height: 20px;
+}
+
+.dark #sidebar{
+    background-color: rgba(224, 233, 231, 0.911);
+    border-color: black;
+    border-width: 2px;
+    border-right-color: white;
+    border-top-color: white;
+}
+.dark .open {
+    margin-left:0.8px;
+    opacity: 0.9
+}
+.dark .closed {
+    opacity: 0;
+}
+
+.dark #sidebar ul {
+    opacity: 1;
+}
+
+span {
+    
+    display: block;
+    border:solid;
+    width: 20px;
+    height:0.1px;
+    margin: 4px 25px;
+   background-color: black;
+}
+.toggleopen {
+  margin-left: 95px;
+  transition:all 600ms linear;
+}
+.toggle {
+  transition:all 600ms linear;
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+a:hover {
+    color:whitesmoke;   /*check*/
+    text-decoration: underline;
+}
+a:visited {
+    color:black;
+    text-decoration: none;
+}
+a:active {
+    color: aqua;
+}
