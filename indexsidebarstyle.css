@@ -22,6 +22,7 @@
 #sidebar ul{
     padding: 0px;
     margin: 0px;
+    opacity: 1;
 }
 #sidebar ul li{
     border-bottom: solid;
